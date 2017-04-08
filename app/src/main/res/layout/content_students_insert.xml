@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="br.com.costa.agenda.StudentsInsertActivity"
+        tools:showIn="@layout/activity_students_insert">
+
+        <EditText
+            android:id="@+id/studentsInsert_editTextName"
+            android:hint="Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/studentsInsert_editTextAddres"
+            android:hint="Endereço"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/studentsInsert_editTextEmail"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/studentsInsert_editTextNumber"
+                android:hint="Número"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/studentsInsert_editTextSite"
+            android:hint="Site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RatingBar
+            android:id="@+id/studentInsert_ratingBarNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>
