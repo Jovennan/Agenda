@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "br.com.costa.agenda"
+        applicationId "br.com.jovennan.agenda"
         minSdkVersion 22
         targetSdkVersion 25
         versionName '1'
